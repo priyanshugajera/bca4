@@ -1,0 +1,64 @@
+C:\Users\KSC40>E:
+
+E:\>cd priyanshu
+
+E:\priyanshu>javac Pro.java
+
+E:\priyanshu>java Pro
+Static method body
+Non-Static method body
+this is static method program
+
+------------------------------------
+
+
+E:\priyanshu>javac Abstract.java
+
+
+E:\priyanshu>java Abstract
+This is the implement body of abstract method
+This is a concrete method with body
+
+----------------------------------------
+
+E:\priyanshu>javac LiteralsDemo.java
+
+E:\priyanshu>java LiteralsDemo
+Decimal:100
+binary:100
+octal:100
+hexa:100
+Float:2.718
+char:A
+string:Hello,world
+trueliteral:true
+FalseLiteral:false
+null:null
+
+-----------------------------------------
+
+E:\priyanshu>javac op.java
+
+E:\priyanshu>java op
+Sum is =15
+subtraction is =5
+multiplication is =50.0
+division is =2.0
+modul is =0.0
+
+E:\priyanshu>
+
+-----------------------------------------
+
+E:\priyanshu>javac Square.java
+
+E:\priyanshu>java Square
+square:10000
+Rectangle:56
+-----------------------------------------
+E:\priyanshu>javac Sumbinary.java
+
+E:\priyanshu>java Sumbinary
+binary sum:202
+octal sum:202
+hexa sum:203
