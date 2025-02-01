@@ -1,0 +1,38 @@
+#include<iostream.h>
+#include<conio.h>
+class parents
+{
+	public:
+	int a,b;
+};
+class p2
+{
+	public:
+	int pclass;
+
+      //	int p1;
+};
+class child:public parents,public p2
+{
+	public:
+	void fun()
+	{
+		a=10,b=20,pclass=30;
+		cout<<"child class:     "<<"a="<<a<<"\tb="<<b<<"\t pclass="<<pclass;
+	}
+
+};
+
+void main()
+{
+	clrscr();
+	child obj;
+	p2 o;
+
+	obj.a=30;
+       //	o.a=30;// not valid because private inherited
+	obj.fun();
+	//o.pfun();
+
+	getch();
+}
