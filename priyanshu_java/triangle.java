@@ -1,16 +1,20 @@
-class triangle
+public class triangle
 {
-   public static void main(String[] args)
-    {
-		
-		for(int i=0;i<10;i++)
+	public static void main(String []args)
+	{
+		int n=6;
+		for(int i=0;i<n;i++)
 		{
-			for(int j=0;j<10;j++)
+			for(int j=n-i;j>1;j--) 
 			{
-				if(j==1)
-				System.out.print("* ");
+				
+				System.out.print(" ");
 			}
+			for(int j=0;j<=i;j++)
+			{	
+				System.out.print("* ");	
+			}
+			System.out.println();
 		}
-		
 	}
 }

@@ -5,7 +5,6 @@ public class Assertion
 		int a =4;
 		assert a>=10:"assertion fire";
 		// assertion is a value is greater than 20
-		System.out.println("valid datA");
-		
+		System.out.println("valid data");
 	}
 }
